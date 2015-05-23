@@ -27,7 +27,8 @@ void fillVector(vector <double> &v)
 }
 
 /// @brief calculate average of all the elements in a vector
-/// @brief v a vector that contains several numbers of type double
+/// @param v a vector that contains several numbers of type double
+/// @return return the average of all the numbers in the vector
 double average(const vector <double> &v)
 {
     double sum = 0.;
